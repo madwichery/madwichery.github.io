@@ -3,8 +3,10 @@
 ## Skripsi (2022) 
 ### Judul: Klasifikasi Ayat Al-Qur'an dengan Mel Frequency Cepstral Coefficient (MFCC) dan Artificial Neural Network (ANN) (2022)
 - Mengidentifikasi suara Al-Qur'an yang dibacakan sesuai dengan surat dan ayatnya. Menggunakan skema MLOps (Machine Learning Operations) dengan library **Weight and Biases** (WANDB).
-- [[3 Best Epoch v f1_score.png]] 
-  3 Arsitektur sebagai skenario percobaan, mencari parameter yang bisa ditraining lebih lanjut dengan parameter yang tidak overfit dengan nilai f1 tiap arsitektur mengalami kenaikan sebesar yaitu 43,1%, 46%, dan 46,4%.
+
+![](docs\3 Best Epoch v f1_score.png) 
+3 Arsitektur sebagai skenario percobaan, mencari parameter yang bisa ditraining lebih lanjut dengan parameter yang tidak overfit dengan nilai f1 tiap arsitektur mengalami kenaikan sebesar yaitu 43,1%, 46%, dan 46,4%.
+
 - [[3 Confusion Matrix.png]] 
   Hasil Klasifikasi terbaik dari ketiga parameter Arsitektur ketiga di atas.
 - [_Exploratory Data Analysis_ Skripsi: Menghadapi Variabilitas Durasi Audio dalam Tugas Klasifikasi | – Weights & Biases (wandb.ai)](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran-EDA/reports/Exploratory-Data-Analysis-Skripsi-Menghadapi-Variabilitas-Durasi-Audio-dalam-Tugas-Klasifikasi--VmlldzozODI2NzUx)
