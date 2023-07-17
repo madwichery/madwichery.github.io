@@ -1,17 +1,24 @@
 
 # **Research projects:**
 ## Skripsi (2022) 
-### Judul: Klasifikasi Ayat Al-Qur'an dengan Mel Frequency Cepstral Coefficient (MFCC) dan Artificial Neural Network (ANN) (2022)
-- Mengidentifikasi suara Al-Qur'an yang dibacakan sesuai dengan surat dan ayatnya. Menggunakan skema MLOps (Machine Learning Operations) dengan library **Weight and Biases** (WANDB).
+### Klasifikasi Ayat Al-Qur'an dengan Mel Frequency Cepstral Coefficient (MFCC) dan Artificial Neural Network (ANN)
+- Mengidentifikasi suara Al-Qur'an yang dibacakan sesuai dengan surat dan ayatnya. 
+- Menggunakan skema **MLOps** (Machine Learning Operations) dengan library **Weight and Biases** (WANDB).
+- Data diupload di Artifact Wandb, dipreprocessing ke MFCC kemudian diklasifikasikan dengan ANN.
+dengan flow:
+  1. [Data yang digunakan diupload ke *Artifact* Weights & Biases](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran-EDA/artifacts/dataset/raw-dataset/v0/files)
+  2. [Explanatory Data Analysis (**EDA**): Data audio memiliki variabilitas **panjang yang berbeda-beda** tiap ayat.](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran-EDA/reports/Exploratory-Data-Analysis-Skripsi-Menghadapi-Variabilitas-Durasi-Audio-dalam-Tugas-Klasifikasi--VmlldzozODI2NzUx) 
+  3. [Preprocessing data audio untuk proses training menjadi **MFCC**](https://gist.github.com/madwichery/e41b08507672980d9b694b3e7c612ba8)
+  4. [Training dengan **ANN**](https://gist.github.com/madwichery/53e27a4a0130fec29682487e34f97578)
 
-![](docs\3 Best Epoch v f1_score.png) 
-3 Arsitektur sebagai skenario percobaan, mencari parameter yang bisa ditraining lebih lanjut dengan parameter yang tidak overfit dengan nilai f1 tiap arsitektur mengalami kenaikan sebesar yaitu 43,1%, 46%, dan 46,4%.
 
-- [[3 Confusion Matrix.png]] 
-  Hasil Klasifikasi terbaik dari ketiga parameter Arsitektur ketiga di atas.
-- [_Exploratory Data Analysis_ Skripsi: Menghadapi Variabilitas Durasi Audio dalam Tugas Klasifikasi | – Weights & Biases (wandb.ai)](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran-EDA/reports/Exploratory-Data-Analysis-Skripsi-Menghadapi-Variabilitas-Durasi-Audio-dalam-Tugas-Klasifikasi--VmlldzozODI2NzUx)
-- [Data yang digunakan – Weights & Biases (wandb.ai)](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran-EDA/artifacts/dataset/raw-dataset/v0/files)
-- [Github Gist Google Collab](https://gist.github.com/madwichery/53e27a4a0130fec29682487e34f97578)
+## [Hasil Percobaan](https://wandb.ai/madwichery/skripsi-madwichery-klasifikasi-32-ayat-quran/)
+
+![](/docs/3 Best Epoch v f1_score.png) 
+- 3 Arsitektur sebagai skenario percobaan, mencari parameter yang bisa ditraining lebih lanjut dengan parameter yang tidak overfit dengan nilai f1 tiap arsitektur mengalami kenaikan sebesar yaitu 43,1%, 46%, dan 46,4%.
+
+![](/docs/3 Confusion Matrix.png) 
+- Hasil Klasifikasi terbaik dari ketiga parameter Arsitektur ketiga di atas.
 
 
 ## Diseminasi Penelitian (2022)

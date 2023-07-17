@@ -1,0 +1,78 @@
+baseURL = "https://example.com/"
+theme = "salinger"
+title = "madwichery"
+copyright = '2023 madwichery'
+ignoreErrors = ["error-remote-getjson"]
+
+[params]
+DateFormat = "January 2006"
+
+author = "madwichery"
+description = ""
+header = "<strong>Hello, I am Madwichery👋 </strong>"
+keywords = [ "portfolio", "teaching", "coding", "research"]
+showHeaderOnHomepage = true
+#googleAnalytics = ""
+twemoji = true
+text404 = "Maaf, tidak ada karya yang ditemukan di sini. Namun, Anda masih bisa melihat portofolio saya yang lainnya di <a href=\"/\">home</a>."
+#fontawesomekitcode = ""
+
+
+[permalinks]
+  '/' = '/:slug/'
+  'projects' = '/:slug/'
+
+[[params.social]]
+name = "github"
+url = "https://github.com/madwichery"
+icon = "fa fa-github"
+before = "Lihat lebih jauh karya saya di "
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/madwichery/"
+icon = "fa fa-linkedin"
+before = ", mari berkoneksi di "
+
+[[params.social]]
+name = "email"
+icon = "fa fa-envelope"
+url = "mailto:madwichery@gmail.com"
+before = ", dan hubungi saya lebih lanjut di "
+
+[Menu]
+[[Menu.Main]]
+name = "Projects."
+url = "/projects/"
+weight = 1
+
+[[Menu.Main]]
+name = "Teaching."
+url = "/teaching/"
+weight = 1
+
+[[Menu.Main]]
+name = "Coding."
+url = "/coding/"
+weight = 1
+
+[[Menu.Main]]
+name = "LinkedIn."
+icon = "fa fa-linkedin"
+url = "https://www.linkedin.com/in/madwichery/"
+weight = 2
+
+[[Menu.Main]]
+name = "Contact me."
+url = "mailto:madwichery@gmail.com"
+weight = 2
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
