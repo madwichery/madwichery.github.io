@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding Project on </title>
+    <link>/tags/coding-project/</link>
+    <description>Recent content in Coding Project on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Mar 2019 22:00:00 +0000</lastBuildDate><atom:link href="/tags/coding-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sistem Informasi Pengelolaan Kapal</title>
+      <link>/coding/sistem-pelabuhan-kapal/</link>
+      <pubDate>Wed, 20 Mar 2019 22:00:00 +0000</pubDate>
+      
+      <guid>/coding/sistem-pelabuhan-kapal/</guid>
+      <description>Membuat Sistem Informasi Pengelolaan Kapal di Pelabuhan untuk mengotomatisasi sistem pembayaran pandu (pilot) Menggunakan J2SE dan MySQL sesuai dengan peraturan perusahaan beberapa parameter diantaranya kapal dan waktu. Link Github Repository: (private)</description>
+    </item>
+    
+  </channel>
+</rss>
